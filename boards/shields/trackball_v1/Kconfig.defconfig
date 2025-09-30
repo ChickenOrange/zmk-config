@@ -1,0 +1,16 @@
+if SHIELD_TRACKBALL_V1
+
+# Name must be less than 16 characters long!
+config ZMK_TRACKBALL_V1
+    default "trackball_v1"
+    
+# Other keyboard settings
+
+config ZMK_POINTING
+    default y
+
+# Assuming pointing device uses SPI
+config SPI
+    default y
+
+endif

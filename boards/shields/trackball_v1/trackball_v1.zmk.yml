@@ -1,0 +1,9 @@
+file_format: "1"
+id: trackball_v1
+name: Trackball_v1
+type: shield
+url: https://github.com/ChickenOrange/zmk-config
+requires: [seeeduino_xiao_rp2040]
+features:
+  - keys
+  - pointer
